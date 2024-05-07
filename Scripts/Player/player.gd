@@ -1,6 +1,10 @@
 extends CharacterBody2D
 
 var grav = 10
+var IdleStateClass = load("res://Scripts/Player/States/idle_state.gd")
+var teste = IdleStateClass.new()
+var BaseStateClass = load("res://Scripts/Player/States/base_state.gd")
+var state_atual: BaseState
 
 func _process(delta):
 	if !is_on_floor():
