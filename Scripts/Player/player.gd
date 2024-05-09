@@ -2,9 +2,10 @@ extends CharacterBody2D
 
 var grav = 10
 var IdleStateClass = load("res://Scripts/Player/States/idle_state.gd")
-var teste = IdleStateClass.new()
-var BaseStateClass = load("res://Scripts/Player/States/base_state.gd")
+
 var state_atual: BaseState
+# declarando os possíveis states q a variável state atual pode ser
+var teste: IdleState = IdleStateClass.new()
 
 func _process(delta):
 	if !is_on_floor():
@@ -24,3 +25,8 @@ func _process(delta):
 		velocity.y -= 300
 		
 	move_and_slide()
+
+func change_state(state: BaseState):
+	state_atual.on_state_exit()
+	state_atual = state
+	state_atual.on_state_start()

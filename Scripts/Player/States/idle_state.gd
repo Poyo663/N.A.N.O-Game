@@ -1,4 +1,4 @@
-extends "res://Scripts/Player/States/base_state.gd"
+class_name IdleState extends "res://Scripts/Player/States/base_state.gd"
 
 func on_state_start():
   pass
