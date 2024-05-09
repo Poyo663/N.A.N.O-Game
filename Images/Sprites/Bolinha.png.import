@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7xefkdmi1ncg"
-path="res://.godot/imported/RoboInicial.png-7bd19f8cc3be3869812b9e932336dd8d.ctex"
+uid="uid://djm4kfjfs2mj4"
+path="res://.godot/imported/Bolinha.png-17d8b6e4d208e46788c63ffe235be0a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Sprites/RoboInicial.png"
-dest_files=["res://.godot/imported/RoboInicial.png-7bd19f8cc3be3869812b9e932336dd8d.ctex"]
+source_file="res://Images/Sprites/Bolinha.png"
+dest_files=["res://.godot/imported/Bolinha.png-17d8b6e4d208e46788c63ffe235be0a5.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7xefkdmi1ncg"
-path="res://.godot/imported/RoboInicial.png-7bd19f8cc3be3869812b9e932336dd8d.ctex"
+uid="uid://dr7gwsmir7eaw"
+path="res://.godot/imported/RoboAndando.png-3162d0a697b394be966636161f03e1f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Sprites/RoboInicial.png"
-dest_files=["res://.godot/imported/RoboInicial.png-7bd19f8cc3be3869812b9e932336dd8d.ctex"]
+source_file="res://Images/Sprites/RoboAndando.png"
+dest_files=["res://.godot/imported/RoboAndando.png-3162d0a697b394be966636161f03e1f1.ctex"]
 
 [params]
 

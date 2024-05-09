@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7xefkdmi1ncg"
-path="res://.godot/imported/RoboInicial.png-7bd19f8cc3be3869812b9e932336dd8d.ctex"
+uid="uid://c0jmdovy8u6dm"
+path="res://.godot/imported/AbrindoBarriga.png-95e51fffbffb966c981ce1a47920d4af.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/Sprites/RoboInicial.png"
-dest_files=["res://.godot/imported/RoboInicial.png-7bd19f8cc3be3869812b9e932336dd8d.ctex"]
+source_file="res://Images/Sprites/AbrindoBarriga.png"
+dest_files=["res://.godot/imported/AbrindoBarriga.png-95e51fffbffb966c981ce1a47920d4af.ctex"]
 
 [params]
 
