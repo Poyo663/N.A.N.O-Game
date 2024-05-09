@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://b7yvq3l62g24s"]
+
+[ext_resource type="Script" path="res://Scripts/Player/player.gd" id="1_58c21"]
+[ext_resource type="Texture2D" uid="uid://ea22oku0j74g" path="res://Images/Sprites/RoboInicial.png" id="2_vgc7y"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ejaei"]
+size = Vector2(20, 27)
+
+[node name="Player" type="CharacterBody2D"]
+z_index = 2
+script = ExtResource("1_58c21")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_vgc7y")
+hframes = 12
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 1.5)
+shape = SubResource("RectangleShape2D_ejaei")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(1.5, 1.5)
+limit_left = 0
